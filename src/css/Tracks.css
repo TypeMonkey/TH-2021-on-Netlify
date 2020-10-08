@@ -1,0 +1,65 @@
+/*
+Additional Tracks coloring, spacing, and style goes here
+*/
+
+#tracks{
+  background: linear-gradient(to bottom, var(--russianViolet), transparent);
+  width: 100%;
+  height: 100vh;
+}
+
+#tracks-title{
+  position: absolute;
+  display: flex;
+  right: -5em;
+  align-items: center;
+  justify-content: center;
+}
+
+#tracks-title h1{
+  font-size: 25em;
+}
+
+#tracks-title h3{
+  font-size: 5.5em;
+  transform: translateX(-1em) rotate(90deg);
+  text-indent: .3em;
+  overflow: visible;
+  height: fit-content;
+}
+
+#tracks-visuals{
+  width: 100%;
+  height: 100%;
+}
+
+#tracks-visuals img{
+  position: relative;
+  width: 33%;
+}
+
+#tracks-visuals img:nth-child(1){
+  top: 20em;
+  left: 2em;
+}
+
+#tracks-visuals img:nth-child(2){
+  left: -5%;
+}
+
+#tracks-visuals img:nth-child(3){
+  top: 25em;
+  left: -18%;
+}
+
+@media only screen and (max-width: 600px) {
+  #tracks-title{
+    right: 0;
+    transform: translateX(7em);
+  }
+
+  #tracks-visuals img{
+    transform: scale(1.3);
+    opacity: 1;
+  }
+}

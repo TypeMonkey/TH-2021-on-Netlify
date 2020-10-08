@@ -1,0 +1,59 @@
+/*
+Additional Header coloring, spacing, and style goes here
+*/
+
+#header{
+  background: transparent;
+  padding: 5.5em 0;
+  margin-bottom: 0;
+  background: linear-gradient(to bottom, black, var(--russianViolet));
+}
+
+.title-underline-left{
+  border-bottom: 5px solid var(--cyberYellow);
+}
+
+#header .btn-primary{
+  background-color: var(--paradisePink);
+  border: none;
+  outline: none;
+  font-size: 1.5em;
+}
+
+#header .btn-primary:focus, #header .btn-primary:active{
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+#header .col-md-5{
+  z-index: 2;
+  display: flex;
+  align-items: flex-end;
+}
+
+#header .col-md-5 img{
+  display: block;
+  width: 100%;
+}
+
+/* mobile styles */
+@media only screen and (max-width: 600px) {
+  #header div{
+    flex-direction: column-reverse;
+  }
+
+  #header div div{
+    padding: 1em 0;
+  }
+
+  #button-group{
+    width: fit-content;
+    margin: auto;
+  }
+
+  .title-underline-left{
+    border-bottom: 3px solid var(--cyberYellow);
+  }
+
+}

@@ -1,0 +1,42 @@
+/*
+Additional Info coloring, spacing, and style goes here
+*/
+
+#about{
+  position: relative;
+  background: var(--electricIndigo);
+}
+
+#about-transition-in{
+  position: absolute;
+  opacity: 1;
+}
+
+#about ::selection {
+  background: var(--russianViolet);
+}
+
+#about h1{
+  font-size: 4.5em;
+}
+
+#about p.text-center{
+  padding: 1em 0;
+  color: var(--electricBlue);
+}
+
+#about .card{
+  background: var(--russianViolet);
+  font-size: 0.7em;
+  border-radius: 25px;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* mobile styles */
+@media only screen and (max-width: 600px) {
+  #about h1{
+    font-size: 3em;
+  }
+
+}

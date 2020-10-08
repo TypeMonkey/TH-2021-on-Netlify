@@ -1,0 +1,21 @@
+/*
+Additional Navbar coloring, spacing, and style goes here
+*/
+
+.navbar{
+  background-color: black;
+}
+
+.navbar a{
+  padding: 0 1%;
+  height: 100%;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+}
+
+.navbar a:hover{
+  color: var(--white);
+  text-decoration: none;
+  border-left: 2px solid var(--paradisePink);
+  border-right: 2px solid var(--paradisePink);
+}

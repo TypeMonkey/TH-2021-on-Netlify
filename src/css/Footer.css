@@ -1,0 +1,11 @@
+/*
+Additional Footer coloring, spacing, and style goes here
+*/
+
+#footer{
+  padding: 3em 0;
+}
+
+#footer .container{
+  width: 30%;
+}

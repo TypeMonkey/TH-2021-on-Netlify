@@ -1,0 +1,38 @@
+/*
+Additional Partner coloring, spacing, and style goes here
+*/
+
+#partners{
+  padding: 3em 0;
+}
+
+#partners h3{
+  font-size: 5em;
+}
+
+#partners .d-flex{
+  width: 60%;
+  margin: auto;
+  padding: 5em 0;
+}
+
+#partners img{
+  width: 25%;
+}
+
+/* mobile styles */
+@media only screen and (max-width: 600px) {
+
+  #partners h3{
+    font-size: 3em;
+  }
+
+  #partners img{
+    width: 23%;
+  }
+
+  #partners .d-flex{
+    width: 90%;
+    padding: 0;
+  }
+}

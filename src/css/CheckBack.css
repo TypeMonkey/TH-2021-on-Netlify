@@ -1,0 +1,26 @@
+/*
+Additional Checkbox coloring, spacing, and style goes here
+*/
+
+#checkBack{
+  height: 90vh;
+  text-align: center;
+}
+
+.checkBack-flair-left{
+  border-top: 7px solid var(--paradisePink);
+}
+
+.checkBack-flair-right{
+  border-bottom: 7px solid var(--electricBlue);
+}
+
+@media only screen and (max-width: 600px) {
+  .checkBack-flair-left{
+    border-top: 3px solid var(--paradisePink);
+  }
+  
+  .checkBack-flair-right{
+    border-bottom: 3px solid var(--electricBlue);
+  }
+}
