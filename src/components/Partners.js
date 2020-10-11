@@ -6,6 +6,7 @@ import React from 'react';
 import acm from '../png/acm.png';
 import CSforeach from '../png/CSforeach.png';
 import SENDforC from '../png/SENDforC.png';
+import ubic from '../png/ubic.png';
 
 class Partners extends React.Component{
 
@@ -19,7 +20,8 @@ class Partners extends React.Component{
             partners: [
                 SENDforC,
                 CSforeach,
-                acm
+                acm,
+                ubic
             ]
         }
     }

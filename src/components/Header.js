@@ -17,12 +17,12 @@ class Header extends React.Component{
 
             <div>
               <h1><span className="title-underline-left">Tr</span>itonHacks 2021</h1>
-              <h3>Location, Date</h3>
+              <h3>Coming Soon!</h3>
             </div>
 
             <div id="button-group">
-              <button className="btn btn-primary m-2">Sign Up</button>
-              <button className="btn btn-primary  m-2">Volunteer</button>
+              {/*<button className="btn btn-primary m-2">Sign Up</button>*/}
+              <button className="btn btn-primary  m-2"><a href="https://forms.gle/uUScxNRtfwckCNZu8" target="_blank">Volunteer</a></button>
             </div>
 
           </div>

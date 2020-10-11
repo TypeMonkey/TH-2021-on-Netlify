@@ -7,9 +7,8 @@ Additional Info coloring, spacing, and style goes here
   background: var(--electricIndigo);
 }
 
-#about-transition-in{
-  position: absolute;
-  opacity: 1;
+#info-transition-in, #info-transition-out{
+  user-select: none;
 }
 
 #about ::selection {
