@@ -2,6 +2,10 @@
 Additional Navbar coloring, spacing, and style goes here
 */
 
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar{
   background-color: black;
 }

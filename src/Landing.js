@@ -23,6 +23,7 @@ import './css/Header.css';
 import './css/Info.css';
 import './css/Tracks.css';
 import './css/Schedule.css';
+/*import './css/Prizes.css';*/
 import './css/Partners.css';
 import './css/Footer.css';
 import './css/CheckBack.css';

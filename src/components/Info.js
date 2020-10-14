@@ -5,6 +5,9 @@
 import React from 'react';
 import TransitionIn from '../svg/transition1.svg';
 import TransitionOut from '../svg/transition2.svg';
+import crown from '../png/crown.png';
+import backpack from '../png/backpack.png';
+import network from '../png/network.png';
 
 /* reusable card component */
 class InfoCard extends React.Component{
@@ -12,7 +15,7 @@ class InfoCard extends React.Component{
     render(){
         return(
             <div className="card">
-                <img src={this.props.link} className="card-img-top" alt="TritonHacks 2021"/>
+                <img src={this.props.link} className="card-img-top info-image" alt="TritonHacks 2021"/>
 
                 <div className="card-body">
                     <p className="card-text">{this.props.text}</p>
@@ -29,9 +32,9 @@ class Info extends React.Component{
 
         this.state = {
             text: [
-                ['High-school-centric, all skill levels welcome hackathon at UCSD', 'https://picsum.photos/150'],
-                ['Close project mentorship with university students in STEM', 'https://picsum.photos/150'],
-                ['Cutting-edge workshops hosted by tech-saavy programmers', 'https://picsum.photos/150']
+                ['High-school-centric, all skill levels welcome hackathon at UCSD', backpack],
+                ['Close project mentorship with university students in STEM', crown],
+                ['Cutting-edge workshops hosted by tech-saavy programmers', network]
             ]
         };
     }

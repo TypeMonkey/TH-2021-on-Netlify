@@ -1,0 +1,11 @@
+/*
+Additional Prizes coloring, spacing, and style goes here
+*/
+
+#prizes{
+    padding: 3em 0;
+}
+  
+#prizes h3{
+    font-size: 5em;
+}
