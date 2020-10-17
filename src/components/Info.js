@@ -32,9 +32,9 @@ class Info extends React.Component{
 
         this.state = {
             text: [
+                ['Cutting-edge workshops hosted by tech-saavy programmers', network],
                 ['High-school-centric, all skill levels welcome hackathon at UCSD', backpack],
-                ['Close project mentorship with university students in STEM', crown],
-                ['Cutting-edge workshops hosted by tech-saavy programmers', network]
+                ['Close project mentorship with university students in STEM', crown]
             ]
         };
     }

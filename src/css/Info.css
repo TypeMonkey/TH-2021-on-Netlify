@@ -35,7 +35,7 @@ Additional Info coloring, spacing, and style goes here
 .info-image{
   display: block;
   width: 60%;
-  padding: 2em 0;
+  padding: 2.5em 0 0;
   margin: auto;
 }
 
