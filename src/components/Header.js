@@ -22,7 +22,7 @@ class Header extends React.Component{
 
             <div id="button-group">
               {/*<button className="btn btn-primary m-2">Sign Up</button>*/}
-              <button className="btn btn-primary  m-2"><a href="https://forms.gle/uUScxNRtfwckCNZu8" target="_blank">Volunteer</a></button>
+              <button className="btn btn-primary  m-2"><a href="https://tripetto.app/run/4D2SQSOWMB" target="_blank">Sign up</a></button>
             </div>
 
           </div>
