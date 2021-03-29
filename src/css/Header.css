@@ -4,61 +4,67 @@ Additional Header coloring, spacing, and style goes here
 
 #header{
   background: transparent;
-  padding: 5.5em 0;
-  margin-bottom: 0;
-  background: linear-gradient(to bottom, black, var(--russianViolet));
+  height: 100vh;
 }
 
-.title-underline-left{
-  border-bottom: 5px solid var(--cyberYellow);
-}
-
-#header .btn-primary{
-  background-color: var(--paradisePink);
-  border: none;
-  outline: none;
-  font-size: 1.5em;
-}
-
-#header .btn-primary:focus, #header .btn-primary:active{
-  border: none;
-  outline: none;
-  box-shadow: none;
-}
-
-#header .col-md-5{
-  z-index: 2;
-  display: flex;
-  align-items: flex-end;
-}
-
-#header .col-md-5 img{
-  display: block;
+#header-title{
+  text-align: center;
+  margin: auto;
   width: 100%;
+  padding: 25vh 10vh 10vh;
+  position: relative;
+  z-index: 3;
 }
 
-#button-group a:hover{
-  color: var(--white);
+#header-title h1{
+  background: transparent;
+  text-shadow: -5px 5px #5edff09d, 5px 5px #FF6B989d;
+}
+
+#header-links{
+  width: 30%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  z-index: 3;
+}
+
+#header-links a{
+  background: var(--paradisePink);
+  padding: 2% 3%;
+  font-size: 1.7em;
+  font-weight: bold;
+  border-radius: 5px;
+  min-width: 5em;
+  text-align: center;
+}
+
+#header-links a:hover{
+  background: #f04d7e;
+}
+
+#header-links a:hover{
+  color: white;
   text-decoration: none;
 }
 
-/* mobile styles */
-@media only screen and (max-width: 600px) {
-  #header div{
-    flex-direction: column-reverse;
+#header video{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  #header-links{
+    width: 60%;
   }
 
-  #header div div{
-    padding: 1em 0;
+  #header-links a{
+    padding: 2% 3%;
+    font-size: 1.5em;
+    min-width: 5em;
   }
-
-  #button-group{
-    width: fit-content;
-    margin: auto;
-  }
-
-  .title-underline-left{
-    border-bottom: 3px solid var(--cyberYellow);
-  }
-
 }

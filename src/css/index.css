@@ -23,7 +23,7 @@ body {
   width: 100vw;
   overflow-x: hidden;
   font-family: 'Source Sans Pro', sans-serif;
-  background: linear-gradient(to bottom, black, var(--russianViolet), black);
+  background: var(--russianViolet);
 }
 
 #root{

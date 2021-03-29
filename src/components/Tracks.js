@@ -3,9 +3,10 @@
  */
 
 import React from 'react';
-import Web from '../svg/web.svg';
-import Game from '../svg/game.svg';
-import App from '../svg/app.svg';
+import Web from '../png/web.png';
+import Game from '../png/game.png';
+import App from '../png/mobile.png';
+import Data from '../png/data.png';
 
 class Tracks extends React.Component{
 
@@ -14,14 +15,15 @@ class Tracks extends React.Component{
             <section id="tracks">
 
                 <div id="tracks-title">
-                    <h1>3</h1>
+                    <h1>4</h1>
                     <h3>Tracks</h3>
                 </div>
 
                 <div id="tracks-visuals">
+                    <img src={Web} alt="track"/>
+                    <img src={Data} alt="track"/>
                     <img src={Game} alt="track"/>
                     <img src={App} alt="track"/>
-                    <img src={Web} alt="track"/>
                 </div>
            
 

@@ -4,7 +4,7 @@ Additional Info coloring, spacing, and style goes here
 
 #about{
   position: relative;
-  background: var(--electricIndigo);
+  padding: 5em 0 7em;
 }
 
 #info-transition-in, #info-transition-out{
@@ -16,37 +16,71 @@ Additional Info coloring, spacing, and style goes here
 }
 
 #about h1{
-  font-size: 4.5em;
+  font-size: 6em;
 }
 
 #about p.text-center{
-  padding: 1em 0;
-  color: var(--electricBlue);
+  font-size: 1.8em;
 }
 
 #about .card{
-  background: var(--russianViolet);
-  font-size: 0.7em;
-  border-radius: 25px;
-  overflow: hidden;
+  background: transparent;
+  font-size: 0.8em;
   text-align: center;
+}
+
+.card-body{
+  padding: 5em 2em;
+  border-radius: 25px;
+  position: relative;
+  z-index: 1;
+}
+
+#about .card:nth-child(1) .card-body{
+  border: 2px solid var(--paradisePink);
+}
+
+#about .card:nth-child(2) .card-body{
+  border: 2px solid var(--electricBlue);
+}
+
+#about .card:nth-child(3) .card-body{
+  border: 2px solid var(--cyberYellow);
 }
 
 .info-image{
   display: block;
   width: 60%;
   padding: 2.5em 0 0;
+  transform: translateY(3em);
   margin: auto;
+  position: relative;
+  z-index: 3;
 }
 
 /* mobile styles */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   #about h1{
     font-size: 3.5em;
   }
 
   #about .card{
     font-size: 1em;
+  }
+
+  .card-deck{
+    flex-direction: column;
+  }
+
+  .info-image{
+    transform: translateY(5em);
+  }
+
+  .card-body{
+    width: 80%;
+    margin: auto;
+    padding: 7em 3em 3em;
+    border-radius: 25px;
   }
 
 }
