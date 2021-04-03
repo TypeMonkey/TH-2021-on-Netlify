@@ -12,7 +12,7 @@ import Schedule from './components/Schedule';
 import Prizes from './components/Prizes';
 import FAQ from './components/FAQ';
 import Guests from './components/Guests';
-import Sponsors from './components/Sponsors';
+import Sponsor from './components/Sponsor';
 import Partners from './components/Partners';
 import Footer from './components/Footer';
 import CheckBack from './components/CheckBack';
@@ -42,6 +42,7 @@ function Landing() {
       <Info/>
       <Tracks/>
       <CheckBack/>
+      <Sponsor/>
       <Partners/>
       <Footer/>
 

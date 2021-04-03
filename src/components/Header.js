@@ -22,7 +22,7 @@ class Header extends React.Component{
           <a href=".">Volunteer</a>
         </div>
 
-        <video autoPlay loop>
+        <video autoPlay loop muted>
           <source src={Grid} type="video/mp4"/>
         </video>
 

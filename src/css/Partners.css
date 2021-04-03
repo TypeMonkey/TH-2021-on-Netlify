@@ -2,37 +2,53 @@
 Additional Partner coloring, spacing, and style goes here
 */
 
-#partners{
+.partners{
   padding: 3em 0;
 }
 
-#partners h3{
+.partners h3{
   font-size: 5em;
 }
 
-#partners .d-flex{
+.partners .d-flex{
   width: 60%;
   margin: auto;
   padding: 5em 0;
 }
 
-#partners img{
-  width: 18%;
+.sponsors div.d-flex{
+  width: 75%;
+  margin: 3em auto 0;
+  padding: 5%;
+  box-sizing: border-box;
+  background: rgb(235, 235, 235);
+  border-radius: 20px;
+}
+
+.partners img{
+  width: 15%;
+}
+
+.partners img.sponsor{
+  width: 25%;
+  margin: 1em;
 }
 
 /* mobile styles */
 @media only screen and (max-width: 600px) {
 
-  #partners h3{
+  .partners h3{
     font-size: 3em;
   }
 
-  #partners img{
-    width: 23%;
-  }
-
-  #partners .d-flex{
+  .partners .d-flex{
     width: 90%;
     padding: 0;
   }
+
+  .partners img.sponsor{
+    width: 60%;
+    margin: 1em;
+  }
+
 }

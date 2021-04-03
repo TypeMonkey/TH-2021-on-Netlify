@@ -7,6 +7,7 @@ import acm from '../png/acm.png';
 import CSforeach from '../png/CSforeach.png';
 import SENDforC from '../png/SENDforC.png';
 import ubic from '../png/ubic.png';
+import SDCOE from '../png/SDCOE.png';
 
 class Partners extends React.Component{
 
@@ -19,16 +20,17 @@ class Partners extends React.Component{
         this.state = {
             partners: [
                 SENDforC,
+                ubic,
                 CSforeach,
                 acm,
-                ubic
+                SDCOE
             ]
         }
     }
 
     render(){
         return(
-            <section id="partners">
+            <section className="partners">
                 <h3 className="text-center">Partners</h3>
                 <div className="d-flex justify-content-around">
 
