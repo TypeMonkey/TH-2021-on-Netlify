@@ -8,8 +8,6 @@ import CODE from '../png/codeorg.png';
 import CSTA from '../png/csta.png';
 import Create from '../png/ucsdCreate.png';
 import Achieve from '../png/achieve.png';
-import ServiceNow from '../png/servicenow.png';
-
 
 class Sponsor extends React.Component{
 
@@ -25,8 +23,7 @@ class Sponsor extends React.Component{
                 Achieve,
                 Sweetwater,
                 CODE,
-                Create,
-				ServiceNow
+                Create
             ]
         }
     }
