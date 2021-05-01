@@ -46,8 +46,6 @@ function Landing() {
       <Partners/>
       <Footer/>
 
-
-
     </div>
   );
 }

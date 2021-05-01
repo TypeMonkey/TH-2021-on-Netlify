@@ -10,8 +10,10 @@ Additional Tracks coloring, spacing, and style goes here
 
 #tracks{
   width: 85%;
+  max-width: 100% !important;
   height: fit-content;
   padding: 2em 0;
+  box-sizing: border-box;
   margin: auto;
 }
 
