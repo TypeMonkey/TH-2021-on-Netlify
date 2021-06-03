@@ -18,7 +18,7 @@ class Header extends React.Component{
         </div>
 
         <div id="header-links">
-          <a href="bit.ly/tritonhacksapply">Sign Up</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdIM_YCWeF7v8UiLVFmBM8O-U2zgommqk2PeiXGdblb7XWQ5Q/viewform">Sign Up</a>
           <a href="https://tripetto.app/run/NDQSG6N1J1">Volunteer</a>
         </div>
 
