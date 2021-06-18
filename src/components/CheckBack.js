@@ -9,7 +9,7 @@ class CheckBack extends React.Component{
    render(){
      return(
       <section id="checkBack" className="d-flex align-items-center justify-content-center">
-        <h1><span className="checkBack-flair-left">Mo</span>re coming so<span className="checkBack-flair-right">on!</span></h1>
+        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQm1XVz_3qt_lI_p7QzxLp320_FogQGQV2FZVqoVIjUnLiapLH2o8H7VwHYZ14bpjC9xtpT6lGJ4VFR/pubhtml?gid=1919304817&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
       </section>
    );
   }
